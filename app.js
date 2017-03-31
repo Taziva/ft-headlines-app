@@ -10,7 +10,10 @@ var monk = require('monk');
 var db;
 require('dotenv').config()
 
-if(process.env.NODE_ENV === "test"){
+if (process.env.NODE_ENV === "production") {
+  db = monk(process.env.MONGODB_URI);
+}
+else if(process.env.NODE_ENV === "test"){
   db = monk('localhost:27017/ft-tech-test-test');
 }
 else {
