@@ -1,5 +1,7 @@
 # Financial Times Tech Test
 
+Available on Heroku: https://ft-tech-test-shoniwa.herokuapp.com/
+
 ## Objectives
 
 * Build a website that shows a list of news headlines from Financial Times. You may use our Developer APIs to achieve this.
