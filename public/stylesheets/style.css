@@ -81,8 +81,16 @@ a {
   background: #fdf8f2 !important;
   border-bottom: 1px solid #cec6b9;
   border-top: 1px solid #cec6b9;
+}
+
+.top-pagination{
   margin-bottom: 2em;
 }
+
+.footer{
+  height: 2em;
+}
+
 
 @media (min-width: 768px) {
     .navbar .navbar-nav {
