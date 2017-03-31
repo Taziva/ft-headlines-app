@@ -24,10 +24,7 @@ a {
 .title{
   font-family: 'Noto Serif', serif;
 }
-#myFt{
-  width: 20%;
-  height: 20%
-}
+
 .jumbotron{
   background: #fff1e0;
   width:100% !important;
@@ -37,6 +34,8 @@ a {
 
 #search{
   margin-right: 0;
+  background: #fdf8f2;
+  color: #66605a;
 }
 
 #search-button{
@@ -84,10 +83,6 @@ a {
 
 .top-pagination{
   margin-bottom: 2em;
-}
-
-.footer{
-  height: 2em;
 }
 
 
