@@ -31,33 +31,12 @@ Available on Heroku: https://ft-tech-test-shoniwa.herokuapp.com/
 5. As a User, so that I can use the website on different devices I would like the website to be responsive
 6. As a User, so that I can use the website accurately on different browsers I would like the website to be rendered from the server
 
-|Nouns|Verbs|
-|-----|-----|
-|News|Browse|
-|Headlines|Display|
-|FT|List|
-|Keywords|Search|
-|Pages|Paginate|
-|Website|Responsive|
-|Devices|Rendered|
-|Browsers|
 
 ## Domain Models
 
-Website — Display —> Headlines — From —> Financial Times
-Website — Search —> Headlines —> Use —> keywords
-Website — Paginate —> Headlines —> Pages
-Pages — Limit —> Headlines
-Website — Responsive —> Device
-Website — Render —> Server
-
-<!-- ### Website
-
-|Properties|Methods|
-|----------|-------|
-
-|Properties|Methods|
-|----------|-------|
-
-|Properties|Methods|
-|----------|-------| -->
+Website — Display —> Headlines — From —> Financial Times  
+Website — Search —> Headlines —> Use —> keywords  
+Website — Paginate —> Headlines —> Pages  
+Pages — Limit —> Headlines  
+Website — Responsive —> Device  
+Website — Render —> Server  
