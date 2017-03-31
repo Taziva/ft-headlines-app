@@ -1,0 +1,97 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #fff1e0;
+}
+.navbar{
+  box-shadow: 0 1px 3px rgba(0,0,0,0.10), 0 1px 3px rgba(0,0,0,0.16);
+}
+
+.navbar-default {
+  background: #fff1e0 !important;
+  border-color: #cec6b9;
+}
+
+p{
+  font-family: 'Questrial', sans-serif;
+  font-size: 1.2em;
+  color: #66605a
+}
+
+a {
+  color: #26747a;
+}
+
+.title{
+  font-family: 'Noto Serif', serif;
+}
+#myFt{
+  width: 20%;
+  height: 20%
+}
+.jumbotron{
+  background: #fff1e0;
+  width:100% !important;
+  margin-bottom: 0;
+}
+
+.age{
+  width:100%
+}
+
+#search{
+  margin-right: 0;
+}
+
+#search-button{
+  font-size: 1em;
+  margin-left: 0;
+  background: #26747a;
+}
+
+.center{
+  text-align: center;
+}
+
+.headline{
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #cec6b9;
+}
+
+.headline-title{
+  font-family: 'Noto Serif', serif;
+  color: #33302d;
+}
+.headline-title:hover{
+  font-family: 'Noto Serif', serif;
+  color: #736c65;
+}
+
+.headlines-list{
+  list-style-type: none;
+}
+
+.pagination-div{
+  padding: 1em;
+}
+.paginationLink{
+  margin: 0em 1em 0em 1em;
+}
+.pagination-nav{
+  background: #fdf8f2 !important;
+  border-bottom: 1px solid #cec6b9;
+  border-top: 1px solid #cec6b9;
+  margin-bottom: 2em;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
