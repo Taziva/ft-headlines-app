@@ -74,7 +74,7 @@ a {
   padding: 1em;
 }
 .paginationLink{
-  margin: 0em 1em 0em 1em;
+  margin: 0em 0.5em 0em 0.5em;
 }
 .pagination-nav{
   background: #fdf8f2 !important;
