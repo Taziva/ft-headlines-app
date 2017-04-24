@@ -1,6 +1,6 @@
 # Financial Times Headlines Application
 
-Available on Heroku: https://ft-tech-test-shoniwa.herokuapp.com/
+Available on Heroku: https://ft-headlines-sho3.herokuapp.com/
 
 ## Specification
 
