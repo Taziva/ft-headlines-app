@@ -1,26 +1,22 @@
-# Financial Times Tech Test
+# Financial Times Headlines Application
 
 Available on Heroku: https://ft-tech-test-shoniwa.herokuapp.com/
 
-## Objectives
+## Specification
 
-* Build a website that shows a list of news headlines from Financial Times. You may use our Developer APIs to achieve this.
+* Build a website that shows a list of news headlines from Financial Times using the FT search api
 
-* Provide a search box for users to search for headlines containing specific words (i.e. searching for "brexit" should return a list of brexit-related headlines).
+* Provide a search box for users to search for headlines containing specific words (i.e. searching for "brexit" returns a list of brexit-related headlines).
 
 * Provide pagination for results, at 20 results per page.
 
-## Specification
+## Techniques
 
-* Server-rendered
 * Progressively enhanced
 * Responsive
 * Accessible
-* Be built using Javascript and node.js
+* Built using Javascript and node.js
 * Be deployed on Heroku
-* Not rely too heavily on client-side frameworks (i.e. Angular, React) or libraries like jQuery
-* Have a similar look and feel as ft.com
-* Be performant over 3G networks
 
 ## User Stories
 
