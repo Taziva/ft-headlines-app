@@ -14,10 +14,10 @@ if (process.env.NODE_ENV === "production") {
   db = monk(process.env.MONGODB_URI);
 }
 else if(process.env.NODE_ENV === "test"){
-  db = monk('localhost:27017/ft-tech-test-test');
+  db = monk('localhost:27017/ft-headlines-test');
 }
 else {
-  db = monk('localhost:27017/ft-tech-test-development')
+  db = monk('localhost:27017/ft-headlines-development')
 }
 
 var index = require('./routes/index');

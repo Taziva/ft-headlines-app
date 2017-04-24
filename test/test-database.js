@@ -5,14 +5,14 @@ var chaiHttp = require('chai-http');
 var server = require('../app');
 var should = chai.should();
 
-describe('Financial Times Tech Test', function() {
+describe('Financial Times Headlines', function() {
 
     var db_test;
     var headlines;
     var data;
 
     beforeEach(function() {
-        db_test = monk('localhost:27017/ft-tech-test-test');
+        db_test = monk('localhost:27017/ft-headlines-test');
         headlines = db_test.get('headlinescollection');
 
         data = {

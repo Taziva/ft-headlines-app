@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
   var db = req.db;
   collection = db.get("headlinecollection");
     res.render('index', {
-      title: 'Financial Times Tech Test'
+      title: 'Financial Times Headlines'
   })
 });
 
@@ -46,7 +46,7 @@ router.get('/search', function(req, res, next) {
     collection.remove({},function(err, doc){
       collection.insert(arr, function (err, docs) {
           res.render('search', {
-            title: 'Financial Times Tech Test',
+            title: 'Financial Times Headlines',
             search: req.query.search
           })
       })
